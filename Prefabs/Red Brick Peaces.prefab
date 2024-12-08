@@ -1,0 +1,425 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2135051225255452124
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7863631696916441884}
+  - component: {fileID: 1511809385691050022}
+  m_Layer: 0
+  m_Name: Red Brick Peaces
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7863631696916441884
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2135051225255452124}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 13, y: 5.1299, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4681476639608543841}
+  - {fileID: 932797058976789937}
+  - {fileID: 8457172483771805266}
+  - {fileID: 5270203234483993561}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!50 &1511809385691050022
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2135051225255452124}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 2
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!1001 &166573849021002518
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 7863631696916441884}
+    m_Modifications:
+    - target: {fileID: 1062356878640744103, guid: cccffa3da364e44ae8a6960cc1b358d5, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.08
+      objectReference: {fileID: 0}
+    - target: {fileID: 1062356878640744103, guid: cccffa3da364e44ae8a6960cc1b358d5, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.08
+      objectReference: {fileID: 0}
+    - target: {fileID: 1062356878640744103, guid: cccffa3da364e44ae8a6960cc1b358d5, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.08
+      objectReference: {fileID: 0}
+    - target: {fileID: 1062356878640744103, guid: cccffa3da364e44ae8a6960cc1b358d5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.026
+      objectReference: {fileID: 0}
+    - target: {fileID: 1062356878640744103, guid: cccffa3da364e44ae8a6960cc1b358d5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.225
+      objectReference: {fileID: 0}
+    - target: {fileID: 1062356878640744103, guid: cccffa3da364e44ae8a6960cc1b358d5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1062356878640744103, guid: cccffa3da364e44ae8a6960cc1b358d5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1062356878640744103, guid: cccffa3da364e44ae8a6960cc1b358d5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1062356878640744103, guid: cccffa3da364e44ae8a6960cc1b358d5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1062356878640744103, guid: cccffa3da364e44ae8a6960cc1b358d5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1062356878640744103, guid: cccffa3da364e44ae8a6960cc1b358d5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1062356878640744103, guid: cccffa3da364e44ae8a6960cc1b358d5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1062356878640744103, guid: cccffa3da364e44ae8a6960cc1b358d5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1062356878640744103, guid: cccffa3da364e44ae8a6960cc1b358d5, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8352127916910950562, guid: cccffa3da364e44ae8a6960cc1b358d5, type: 3}
+      propertyPath: m_Color.b
+      value: 0.23905303
+      objectReference: {fileID: 0}
+    - target: {fileID: 8352127916910950562, guid: cccffa3da364e44ae8a6960cc1b358d5, type: 3}
+      propertyPath: m_Color.g
+      value: 0.23905303
+      objectReference: {fileID: 0}
+    - target: {fileID: 8352127916910950562, guid: cccffa3da364e44ae8a6960cc1b358d5, type: 3}
+      propertyPath: m_Color.r
+      value: 0.6415094
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041756107274474115, guid: cccffa3da364e44ae8a6960cc1b358d5, type: 3}
+      propertyPath: m_Name
+      value: Red Peacess (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: cccffa3da364e44ae8a6960cc1b358d5, type: 3}
+--- !u!4 &932797058976789937 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1062356878640744103, guid: cccffa3da364e44ae8a6960cc1b358d5, type: 3}
+  m_PrefabInstance: {fileID: 166573849021002518}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5160485362922651006
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 7863631696916441884}
+    m_Modifications:
+    - target: {fileID: 1062356878640744103, guid: cccffa3da364e44ae8a6960cc1b358d5, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.08
+      objectReference: {fileID: 0}
+    - target: {fileID: 1062356878640744103, guid: cccffa3da364e44ae8a6960cc1b358d5, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.08
+      objectReference: {fileID: 0}
+    - target: {fileID: 1062356878640744103, guid: cccffa3da364e44ae8a6960cc1b358d5, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.08
+      objectReference: {fileID: 0}
+    - target: {fileID: 1062356878640744103, guid: cccffa3da364e44ae8a6960cc1b358d5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1062356878640744103, guid: cccffa3da364e44ae8a6960cc1b358d5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1062356878640744103, guid: cccffa3da364e44ae8a6960cc1b358d5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1062356878640744103, guid: cccffa3da364e44ae8a6960cc1b358d5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1062356878640744103, guid: cccffa3da364e44ae8a6960cc1b358d5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1062356878640744103, guid: cccffa3da364e44ae8a6960cc1b358d5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1062356878640744103, guid: cccffa3da364e44ae8a6960cc1b358d5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1062356878640744103, guid: cccffa3da364e44ae8a6960cc1b358d5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1062356878640744103, guid: cccffa3da364e44ae8a6960cc1b358d5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1062356878640744103, guid: cccffa3da364e44ae8a6960cc1b358d5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1062356878640744103, guid: cccffa3da364e44ae8a6960cc1b358d5, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8352127916910950562, guid: cccffa3da364e44ae8a6960cc1b358d5, type: 3}
+      propertyPath: m_Color.b
+      value: 0.23905303
+      objectReference: {fileID: 0}
+    - target: {fileID: 8352127916910950562, guid: cccffa3da364e44ae8a6960cc1b358d5, type: 3}
+      propertyPath: m_Color.g
+      value: 0.23905303
+      objectReference: {fileID: 0}
+    - target: {fileID: 8352127916910950562, guid: cccffa3da364e44ae8a6960cc1b358d5, type: 3}
+      propertyPath: m_Color.r
+      value: 0.6415094
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041756107274474115, guid: cccffa3da364e44ae8a6960cc1b358d5, type: 3}
+      propertyPath: m_Name
+      value: Red Peacess (3)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: cccffa3da364e44ae8a6960cc1b358d5, type: 3}
+--- !u!4 &5270203234483993561 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1062356878640744103, guid: cccffa3da364e44ae8a6960cc1b358d5, type: 3}
+  m_PrefabInstance: {fileID: 5160485362922651006}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5641266235329682630
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 7863631696916441884}
+    m_Modifications:
+    - target: {fileID: 1062356878640744103, guid: cccffa3da364e44ae8a6960cc1b358d5, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.08
+      objectReference: {fileID: 0}
+    - target: {fileID: 1062356878640744103, guid: cccffa3da364e44ae8a6960cc1b358d5, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.08
+      objectReference: {fileID: 0}
+    - target: {fileID: 1062356878640744103, guid: cccffa3da364e44ae8a6960cc1b358d5, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.08
+      objectReference: {fileID: 0}
+    - target: {fileID: 1062356878640744103, guid: cccffa3da364e44ae8a6960cc1b358d5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.237
+      objectReference: {fileID: 0}
+    - target: {fileID: 1062356878640744103, guid: cccffa3da364e44ae8a6960cc1b358d5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.216
+      objectReference: {fileID: 0}
+    - target: {fileID: 1062356878640744103, guid: cccffa3da364e44ae8a6960cc1b358d5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1062356878640744103, guid: cccffa3da364e44ae8a6960cc1b358d5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1062356878640744103, guid: cccffa3da364e44ae8a6960cc1b358d5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1062356878640744103, guid: cccffa3da364e44ae8a6960cc1b358d5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1062356878640744103, guid: cccffa3da364e44ae8a6960cc1b358d5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1062356878640744103, guid: cccffa3da364e44ae8a6960cc1b358d5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1062356878640744103, guid: cccffa3da364e44ae8a6960cc1b358d5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1062356878640744103, guid: cccffa3da364e44ae8a6960cc1b358d5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1062356878640744103, guid: cccffa3da364e44ae8a6960cc1b358d5, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8352127916910950562, guid: cccffa3da364e44ae8a6960cc1b358d5, type: 3}
+      propertyPath: m_Color.b
+      value: 0.23905303
+      objectReference: {fileID: 0}
+    - target: {fileID: 8352127916910950562, guid: cccffa3da364e44ae8a6960cc1b358d5, type: 3}
+      propertyPath: m_Color.g
+      value: 0.23905303
+      objectReference: {fileID: 0}
+    - target: {fileID: 8352127916910950562, guid: cccffa3da364e44ae8a6960cc1b358d5, type: 3}
+      propertyPath: m_Color.r
+      value: 0.6415094
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041756107274474115, guid: cccffa3da364e44ae8a6960cc1b358d5, type: 3}
+      propertyPath: m_Name
+      value: Red Peacess
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: cccffa3da364e44ae8a6960cc1b358d5, type: 3}
+--- !u!4 &4681476639608543841 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1062356878640744103, guid: cccffa3da364e44ae8a6960cc1b358d5, type: 3}
+  m_PrefabInstance: {fileID: 5641266235329682630}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8927214608066685173
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 7863631696916441884}
+    m_Modifications:
+    - target: {fileID: 1062356878640744103, guid: cccffa3da364e44ae8a6960cc1b358d5, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.08
+      objectReference: {fileID: 0}
+    - target: {fileID: 1062356878640744103, guid: cccffa3da364e44ae8a6960cc1b358d5, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.08
+      objectReference: {fileID: 0}
+    - target: {fileID: 1062356878640744103, guid: cccffa3da364e44ae8a6960cc1b358d5, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.08
+      objectReference: {fileID: 0}
+    - target: {fileID: 1062356878640744103, guid: cccffa3da364e44ae8a6960cc1b358d5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.169
+      objectReference: {fileID: 0}
+    - target: {fileID: 1062356878640744103, guid: cccffa3da364e44ae8a6960cc1b358d5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1062356878640744103, guid: cccffa3da364e44ae8a6960cc1b358d5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1062356878640744103, guid: cccffa3da364e44ae8a6960cc1b358d5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1062356878640744103, guid: cccffa3da364e44ae8a6960cc1b358d5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1062356878640744103, guid: cccffa3da364e44ae8a6960cc1b358d5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1062356878640744103, guid: cccffa3da364e44ae8a6960cc1b358d5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1062356878640744103, guid: cccffa3da364e44ae8a6960cc1b358d5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1062356878640744103, guid: cccffa3da364e44ae8a6960cc1b358d5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1062356878640744103, guid: cccffa3da364e44ae8a6960cc1b358d5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1062356878640744103, guid: cccffa3da364e44ae8a6960cc1b358d5, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8352127916910950562, guid: cccffa3da364e44ae8a6960cc1b358d5, type: 3}
+      propertyPath: m_Color.b
+      value: 0.23905303
+      objectReference: {fileID: 0}
+    - target: {fileID: 8352127916910950562, guid: cccffa3da364e44ae8a6960cc1b358d5, type: 3}
+      propertyPath: m_Color.g
+      value: 0.23905303
+      objectReference: {fileID: 0}
+    - target: {fileID: 8352127916910950562, guid: cccffa3da364e44ae8a6960cc1b358d5, type: 3}
+      propertyPath: m_Color.r
+      value: 0.6415094
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041756107274474115, guid: cccffa3da364e44ae8a6960cc1b358d5, type: 3}
+      propertyPath: m_Name
+      value: Red Peacess (2)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: cccffa3da364e44ae8a6960cc1b358d5, type: 3}
+--- !u!4 &8457172483771805266 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1062356878640744103, guid: cccffa3da364e44ae8a6960cc1b358d5, type: 3}
+  m_PrefabInstance: {fileID: 8927214608066685173}
+  m_PrefabAsset: {fileID: 0}
